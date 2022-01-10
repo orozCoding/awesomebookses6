@@ -4,7 +4,6 @@ export const sectionTitle = document.createElement('h1');
 export const bookListSection = document.createElement('section');
 export const booksList = document.createElement('div');
 
-
 export class BookList {
   constructor() {
     this.books = [];
