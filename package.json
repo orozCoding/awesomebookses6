@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/orozCoding/awesomebookses6/issues"
   },
-  "homepage": "https://github.com/orozCoding/awesomebookses6#readme"
+  "homepage": "https://github.com/orozCoding/awesomebookses6#readme",
+  "dependencies": {
+    "luxon": "^2.3.0"
+  }
 }
