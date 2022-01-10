@@ -1,4 +1,4 @@
-class BookList {
+export default class BookList {
   constructor() {
     this.books = [];
   }
@@ -13,5 +13,3 @@ class BookList {
     localStorage.setItem('books', JSON.stringify(this.books));
   }
 }
-
-export default BookList; 
