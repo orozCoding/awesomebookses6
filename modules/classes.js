@@ -1,5 +1,6 @@
-import { main, booksList, bookListSection, sectionTitle } from '../index.js';
+import { booksList, bookListSection } from '../index.js'; // eslint-disable-line
 
+/* eslint-disable max-classes-per-file */
 export class BookList {
   constructor() {
     this.books = [];

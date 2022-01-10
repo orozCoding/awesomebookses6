@@ -1,8 +1,7 @@
-import * as FN from './modules/functions.js'
-import { BookList, Book, bookList } from './modules/classes.js'
-import { DateTime } from './node_modules/luxon/build/es6/luxon.js'
+import * as FN from './modules/functions.js';
+import { BookList, Book, bookList } from './modules/classes.js';
+import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 
-/* eslint-disable max-classes-per-file */
 const currentDateTime = document.querySelector('.date-time');
 const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 currentDateTime.textContent = now;
@@ -12,7 +11,6 @@ export const bookListSection = document.createElement('section');
 export const booksList = document.createElement('div');
 bookListSection.id = 'list';
 bookListSection.innerHTML = '<h2>Book List</h2>';
-const newTime = document.getElementById('new-time');
 
 window.addEventListener('DOMContentLoaded', () => {
   FN.populateMainSection();
