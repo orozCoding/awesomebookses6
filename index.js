@@ -14,10 +14,6 @@ bookListSection.id = 'list';
 bookListSection.innerHTML = '<h2>Book List</h2>';
 const newTime = document.getElementById('new-time');
 
-
-
-
-
 window.addEventListener('DOMContentLoaded', () => {
   FN.populateMainSection();
   bookList.checkBooks();
