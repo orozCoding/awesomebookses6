@@ -1,5 +1,4 @@
-import { main, booksList, bookListSection, sectionTitle } from '../index.js'; // eslint-disable-line
-import { Book } from './classes.js';
+import { Book, main, booksList, bookListSection, sectionTitle } from './classes.js'; // eslint-disable-line
 
 export function populateAddBookSection() {
   const addBookSection = document.createElement('section');

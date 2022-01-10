@@ -1,14 +1,11 @@
 import * as FN from './modules/functions.js';
-import { Book, bookList } from './modules/classes.js';
+import { Book, bookList, bookListSection } from './modules/classes.js';
 import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 
 const currentDateTime = document.querySelector('.date-time');
 const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 currentDateTime.textContent = now;
-export const main = document.getElementById('main');
-export const sectionTitle = document.createElement('h1');
-export const bookListSection = document.createElement('section');
-export const booksList = document.createElement('div');
+
 bookListSection.id = 'list';
 bookListSection.innerHTML = '<h2>Book List</h2>';
 
