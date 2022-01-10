@@ -1,6 +1,6 @@
 import BookList from './booklist.js';
 
-export const main = document.getElementById('main'); // eslint-disable-line
+export const main = document.getElementById('main');
 export const sectionTitle = document.createElement('h1');
 export const bookListSection = document.createElement('section');
 export const booksList = document.createElement('div');
