@@ -1,9 +1,10 @@
-export const main = document.getElementById('main');
+/* eslint-disable max-classes-per-file */
+export const main = document.getElementById('main'); // eslint-disable-line
 export const sectionTitle = document.createElement('h1');
 export const bookListSection = document.createElement('section');
 export const booksList = document.createElement('div');
 
-/* eslint-disable max-classes-per-file */
+
 export class BookList {
   constructor() {
     this.books = [];
