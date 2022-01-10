@@ -1,5 +1,5 @@
 import * as FN from './modules/functions.js';
-import { BookList, Book, bookList } from './modules/classes.js';
+import { Book, bookList } from './modules/classes.js';
 import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
 
 const currentDateTime = document.querySelector('.date-time');
