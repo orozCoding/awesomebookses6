@@ -1,24 +1,9 @@
-/* eslint-disable max-classes-per-file */
+import { BookList } from './booklist.js'
+
 export const main = document.getElementById('main'); // eslint-disable-line
 export const sectionTitle = document.createElement('h1');
 export const bookListSection = document.createElement('section');
 export const booksList = document.createElement('div');
-
-export class BookList {
-  constructor() {
-    this.books = [];
-  }
-
-  checkBooks() {
-    if (localStorage.getItem('books')) {
-      this.books = JSON.parse(localStorage.getItem('books'));
-    }
-  }
-
-  saveBooks() {
-    localStorage.setItem('books', JSON.stringify(this.books));
-  }
-}
 
 export const bookList = new BookList();
 
