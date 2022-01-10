@@ -6,13 +6,13 @@ It is a project for Microverse's JavaScript Module to be done using pair-program
 
 ### Desktop Version
 
-![Desktop - Books List Page](./assets/img/awesome-books-home-desktop-version.png)
-![Desktop - Add Book Page](./assets/img/awesome-books-add-new-desktop-version.png)
-![Desktop - Contact Page](./assets/img/awesome-books-contact-desktop-version.png)
+![Desktop - Books List Page](./img/awesome-books-home-desktop-version.png)
+![Desktop - Add Book Page](./img/awesome-books-add-new-desktop-version.png)
+![Desktop - Contact Page](./img/awesome-books-contact-desktop-version.png)
 
 ### Mobile Version
 
-![Mobile - Books List Page](./assets/img/awesome-books-home-mobile-version.png)
+![Mobile - Books List Page](./img/awesome-books-home-mobile-version.png)
 
 In this website you can add awesome books of your choice to the list of books and see the existing ones saved in your localstorage object.
 
