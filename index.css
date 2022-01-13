@@ -6,6 +6,13 @@
   padding: 0;
 }
 
+a,
+a::after,
+a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 body {
   font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
 }
@@ -196,6 +203,13 @@ ul {
   padding: 10px 20px;
   border: 2px solid black;
   margin: 5px auto;
+}
+
+.credit-link,
+.credit-link:visited,
+.credit-link:active
+.credit-link::after {
+  color: blue;
 }
 
 .d-off {
