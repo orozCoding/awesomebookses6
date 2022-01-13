@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/orozCoding/awesomebookses6#readme",
   "dependencies": {
-    "eslint": "^8.6.0",
+    "eslint": "^8.6.0"
+  },
+  "devDependencies": {
     "luxon": "^2.3.0"
   }
 }
