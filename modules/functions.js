@@ -1,6 +1,6 @@
 import { Book, main, booksList, bookListSection, sectionTitle } from './classes.js'; // eslint-disable-line
 
-export function populateAddBookSection() {
+export const populateAddBookSection = () => {
   const addBookSection = document.createElement('section');
   const addBookSectionTitle = document.createElement('h2');
   const form = document.createElement('form');
@@ -51,7 +51,7 @@ export function populateAddBookSection() {
   return addBookSection;
 }
 
-export function populateContactSection() {
+export const populateContactSection = () => {
   const contactSection = document.createElement('section');
   contactSection.id = 'contact';
   contactSection.classList.add('contact-info', 'd-flex', 'col', 'd-off');
@@ -67,7 +67,7 @@ export function populateContactSection() {
   return contactSection;
 }
 
-export function populateMainSection() {
+export const populateMainSection = () => {
   booksList.className = 'books-container';
   sectionTitle.textContent = 'Awesome books';
 

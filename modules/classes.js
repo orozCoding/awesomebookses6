@@ -1,4 +1,4 @@
-import BookList from './booklist.js';
+import BookList from './booklist.js';;
 
 export const main = document.getElementById('main');
 export const sectionTitle = document.createElement('h1');
